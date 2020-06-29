@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小米官网 - 小米10 Pro、Redmi K30、小米MIX Alpha，小米电视官方网站</title>
+	<!-- 搭建项目 -->
+	<!-- 引入重置样式表-->
+	<link rel="stylesheet" href="./css/reset.css">
+	<!-- 引入相关图标字体 -->
+	<link rel="stylesheet" href="./css/iconfont.css">
+	<!-- 基本样式表 -->
+    <link rel="stylesheet" href="./css/小米basement.css">
+    <!-- 内部样式表 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 设置网站的图标,一般显示在标题栏和收藏栏 -->
+    <!-- 网站图片一般会储存在根目录下，名字一般叫做favicon.ico -->
+    <link rel="icon" href="./img/favicon.ico">
+    <!-- 引入js文件 先引入用到的函数工具-->
+    <script src="js/animate.js"></script>
+    <script src="js/index.js"></script>
+    
+</head>
+<body style="height:2000px">
+	 <!-- 顶部导航条 -->
+	<div class="topbar-wrapper">
+        <!-- 内部容器 -->
+        <div class="topbar w clearfix">
+            <!-- 左边栏 -->
+            <ul class="service">
+                <li><a href="javascript:;">小米商城</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">MIUI</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">loT</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">云服务</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">金融</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">有品</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">小爱开放平台</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">企业团购</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">资质证照</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">协议规则</a></li>
+                <li class="line">|</li>
+                <li class="app-fa"><a href="javascript:;" class="app">下载app</a>
+                    <!-- 添加下拉层 -->
+                    <div class="qrcode">
+                        <img src="./img/qrcode.png">
+                        <span>小米商城app</span>
+                    </div>
+                </li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">Select Location</a></li>
+            </ul>  
+            <!--为了使向右浮动时位置准确-->
+            <!-- 购物车 -->
+            <div class="shop">
+                <ul class="shop-cart">
+                    <li><span class="iconfont">&#xe603;</span></li>
+                    <li><a href="javascript:;">购物车（0）</a></li>
+                </ul>    
+                    <!-- 下拉框 -->
+                    
+                <div class="shopping">
+                     购物车中还没有商品，赶紧选购吧！
+                </div>    
+            </div>    
+            
+            <!-- 用户登录等信息 -->
+            <ul class="user-info">
+                <li><a href="javascript:;">登录</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">注册</a></li>
+                <li class="line">|</li>
+                <li><a href="javascript:;">消息通知</a></li>
+            </ul>
+        </div>
+	</div>
+    <!-- 头部外部容器 -->
+    <div class="header-wrapper">
+        <div class="header w">
+        <!-- 创建一个logo -->
+            <h1 class="logo">
+            <!-- 文字是为了让搜索引擎搜索到，但不能让它显示,通常将text-indent设为一个很大的负值 -->
+                <span class="describe"></span>
+                <a href="javascript:;" class="house">
+                  <span class="iconfont">&#xe69b;</span>
+                </a>
+                <a href="javascript:;" class="mi">
+                  <span class="iconfont">&#xecbf;</span>
+                </a>
+            </h1>
+            <!-- 导航条容器 -->
+            <div class="nav-wrapper">
+                <!-- 导航条 -->
+                <ul class="nav clearfix">
+                   <li class="all-goods-wrapper"><a href="#" class="all-goods">全部商品分类</a>
+                       <!-- 左侧导航条 -->
+                       <ul class="left-nav">
+                            <li>
+                                <a href="#">手机 电话卡
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">电视 盒子
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">笔记本 平板
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">家电 插线板
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">出行 穿戴
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">智能 路由器
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">电源 配件
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">健康 儿童
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">耳机 音箱
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">智能 路由器
+                                <i class="iconfont icon-jiantouarrow487"></i>
+                                </a>
+                            </li>
+                       </ul>
+                   </li>
+                   <li><a href="#">小米手机</a></li>
+                   <li><a href="#">Redmi 红米</a></li>
+                   <li><a href="#">电视</a></li>
+                   <li><a href="#">笔记本</a></li>
+                   <li><a href="#">家电</a></li>
+                   <li><a href="#">路由器</a></li>
+                   <li><a href="#">智能硬件</a></li>
+                   <li><a href="#">服务</a></li>
+                   <li><a href="#">社区</a></li>
+                   <!-- 下拉层外部容器 -->
+                   <div class="goods-info">
+                   <!-- 下拉层内部容器 -->
+                      <ul class="img-show w">
+                            <li class="img-li">
+                                <img src="img/1.png">
+                                <p class="name">小米pro</p>
+                                <p class="price">4999起</p>
+                            </li>
+                            <li class="line"></li>
+                            <li class="img-li">
+                                <img src="img/2.png">
+                                <p class="name">小米10</p>
+                                <p class="price">3999起</p>
+                            </li>
+                            <li class="line"></li>
+                            <li class="img-li">
+                               <img src="img/3.png">
+                               <p class="name">小米cc9 pro</p>
+                               <p class="price">2599起</p>
+                            </li>
+                            <li class="line"></li>
+                            <li class="img-li">
+                               <img src="img/4.png">
+                               <p class="name">小米pro 5G</p>
+                               <p class="price">3999起</p>
+                            </li>
+                           <li class="line"></li>
+                           <li class="img-li">
+                              <img src="img/5.png">
+                              <p class="name">小米 cc9</p>
+                              <p class="price">1699起</p>
+                              </li>
+                           <li class="line"></li>
+                           <li class="img-li">
+                              <img src="img/6.png">
+                              <p class="name">小米 cc9e</p>
+                              <p class="price">1299起</p>
+                           </li>
+                      </ul>
+                   </div>
+                </ul>
+            </div>
+            <!-- 搜索框容器-->
+            <div class="search-wrapper">
+                <form action="#" class="search">
+                    <input class="search-inp" type="text" placeholder="电视"/>
+                    <!-- 重点商品提示框 -->
+                    <button class="search-btn">
+                        <i class="iconfont">&#xe67f;</i>
+                    </button>
+                    <!-- 下拉框 -->
+                    <ul class="product-remind">
+                       <li><a href="#">小米9</a></li>
+                       <li><a href="#">红米K20 pro</a></li>
+                       <li><a href="#">红米K20</a></li>
+                       <li><a href="#">Redmi note7 pro</a></li>
+                       <li><a href="#">Redmi note7</a></li>
+                       <li><a href="#">小米电视4c</a></li>
+                       <li><a href="#">电视40英寸</a></li>
+                       <li><a href="#">笔记本 pro</a></li>
+                       <li><a href="#">小爱音箱</a></li>
+                       <li><a href="#">净水器</a></li>
+                    </ul>
+                </form>
+            </div>
+             
+        </div>
+    </div>
+    <!-- 创建banner容器 -->
+    <div class="banner-wrapper">
+        <div class="banner w">
+            <ul class="img-list">
+                <li>
+                <a href="javascript:;"><img style="width:1226px;" src="img/11.jpg"></a>
+                </li>
+                <li>
+                <a href="javascript:;"><img src="img/22.jpg"></a>
+                </li>
+                <li>
+                <a href="javascript:;"><img src="img/33.jpg"></a>
+                </li>
+                <li>
+                <a href="javascript:;"><img src="img/44.jpg"></a>
+                </li>
+                <li>
+                <a href="javascript:;"><img src="img/55.jpg"></a>
+                </li>
+            </ul>
+            <ul class="pointer">
+                <!-- 通过js根据图片个数动态加入 -->
+                <!-- <li><a class="active" href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li>
+                <li><a href="javascript:;"></a></li> -->
+            </ul>
+            <div class="prev-wrapper">
+                 <a class="prev" href="javascript:;">
+                     <i class="iconfont">&#xe610;</i>
+                 </a>
+            </div>
+            <div class="next-wrapper">
+                 <a class="next" href="javascript:;">
+                     <i class="iconfont">&#xe610;</i>
+                 </a>
+            </div>
+        </div>
+    </div>
+    <!-- 工具条 -->
+    <div class="tool-nav">
+         <a href="#"><span class="iconfont">&#xe82f;</span></a>
+         <a href="#"><span class="iconfont">&#xe616;</span></a>
+         <a href="#"><span class="iconfont">&#xe617;</span></a>
+         <a href="#"><span class="iconfont">&#xe604;</span></a>
+         <a href="#"><span class="iconfont">&#xe603;</span></a>
+    </div>
+    <!-- 创建广告容器 -->
+    <div class="homelist w">
+         <ul class="shortcut">
+            <li><a href="#"><img src="img/秒杀.png">
+            小米秒杀</a></li>
+            <li><a href="#"><img src="img/企业导购.png">
+            企业团购</a></li>
+            <li><a href="#"><img src="img/F码通道.png">
+            F码通道</a></li>
+            <li><a href="#"><img src="img/米粉卡.png">
+            米粉卡</a></li>
+            <li><a href="#"><img src="img/以旧换新.png">
+            以旧换新</a></li>
+            <li><a href="#"><img src="img/话费充值.png">
+            话费充值</a></li>
+         </ul>
+         <ul class="home-imgs">
+            <li><a href="#"><img src="img/小米cc9 pro.jpg" ></a></li>
+            <li><a href="#"><img src="img/红米note 8.jpg" ></a></li>
+            <li><a href="#"><img class="final-img"src="img/小米手环4.jpg" ></a></li>
+         </ul>
+    </div>
+    <!-- 小米闪购外部容器 -->
+    <div class="click-wrapper">
+         <!-- 小米闪购居中容器 -->
+         <div class="click w">
+               <div class="click-title">
+                     <h2>小米闪购</h2>
+                     <span class="iconfont next2">&#xe762;</span>
+                     <span class="iconfont prev2">&#xe762;</span>      
+               </div>
+            <div class="row"> 
+               <div class="click-time">
+                   <span>10:00 场</span>
+                   <img src="img/闪电.png" >
+                   <i>距离结束还有</i>
+                   <div class="timeCount">
+                       <div class="hour"></div>
+                       <span>:</span>
+                       <div class="minute"></div>
+                       <span>:</span>
+                       <div class="second"></div>
+                   </div>
+               </div>
+               <div class="moveShop">
+            <div class="click-shop first-goods first-goods1">
+                <img src="img/米家电磁炉.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span class="original-price">149元</span></p>
+            </div>
+            <div class="click-shop">
+                <img src="img/111.png" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span class="original-price">149元</span></p>               
+            </div>
+            <div class="click-shop">
+                <img src="img/222.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span class="original-price">149元</span></p>               
+            </div>
+            <div class="click-shop">
+                <img src="img/333.png" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span class="original-price">149元</span></p>               
+            </div>
+            <div class="click-shop">
+                <img src="img/小米路由器4C.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span  class="original-price">149元</span></p>     
+            </div>
+            <div class="click-shop final-goods">
+                <img src="img/小米路由器4C.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span  class="original-price">149元</span></p>     
+            </div>
+            <div class="click-shop first-goods">
+                <img src="img/米家电磁炉.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span class="original-price">149元</span></p>               
+            </div>
+            <div class="click-shop">
+                <img src="img/MIJOY抽纸青春版.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span class="original-price">149元</span></p>                
+            </div>
+            <div class="click-shop">
+                <img src="img/米家IH电饭煲.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span class="original-price">149元</span></p>                
+            </div>
+            <div class="click-shop final-goods">
+                <img src="img/小米路由器4C.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span  class="original-price">149元</span></p>     
+            </div>
+            <div class="click-shop first-goods">
+                <img src="img/米家IH电饭煲.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span class="original-price">149元</span></p>                
+            </div>
+            <div class="click-shop">
+                <img src="img/小米路由器4C.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span  class="original-price">149元</span></p>     
+            </div>
+            <div class="click-shop">
+                <img src="img/米家IH电饭煲.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span class="original-price">149元</span></p>                
+            </div>
+            <div class="click-shop final-goods">
+                <img src="img/小米路由器4C.jpg" />
+                <h3>米家电磁炉A1黑色</h3>
+                <p class="goods-describe">九档火力调节，2小时智能保温</p>
+                <p class="present-price">128元 <span  class="original-price">149元</span></p>     
+            </div>
+               </div>
+            </div>  
+        </div>
+    </div>
+    <!-- 小米10 -->
+    <div class="mi10-wrapper">
+         <div class="mi10 w">
+             <img src="img/mi10.jpg">
+         </div>
+    </div>
+</body>
+</html>
